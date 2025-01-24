@@ -18,7 +18,7 @@ export type Class = typeof(Class)
 function Class.new(): Class
 	local class: Class = setmetatable({}, Class)
 
-	return Class
+	return class
 end
 
 -- Exports
